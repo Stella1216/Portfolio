@@ -1,0 +1,459 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: #000; /* Black background color */
+    color: #fff; /* Text content color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; /* Curved edges */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #66b3ff; /* Highlight color on hover */
+}
+
+.about-container {
+    max-width: 1700px;
+    max-height: fit-content; 
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    background-image: url('Images/about-background.jpg');
+    background-size: cover;
+    background-position: centre;
+    color:#fff;
+    margin-top: 70px;
+}
+
+.about-image {
+    flex: 1;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-description {
+    flex: 2;
+    padding: 20px;
+}
+
+.about-description h2 {
+    margin-bottom: 10px;
+}
+
+.about-description p {
+    font-size: 22px; 
+    line-height: 1.6; 
+}
+.about-description b{
+    font-style: bold;
+}
+
+#education {
+    text-align: center; 
+    margin-top: 80px; 
+}
+
+#education h1{
+    font-size: 78px; 
+    color: #090909; 
+    margin-bottom: 20px; 
+}
+
+.education-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-subsection {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.education-subsection h2 {
+    margin-bottom: 10px;
+}
+
+#education {
+    background-image: url('Images/education_bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    color: #fff; 
+    text-align: center;
+    margin-top: -100px;
+    
+}
+
+#education h1 {
+    font-size: 70px;
+    color: #0b0a0a;
+    margin-bottom: 20px;
+}
+
+.education-container {
+    max-width: 1400px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-subsection {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    border: 1px solid #060202;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(27, 25, 25, 0.1);
+}
+.education-subsection p{
+    color: #090000;
+    font-size: 20px;
+}
+
+.education-subsection h2 {
+    color: #0d0202;
+    margin-bottom: 20px;
+}
+
+#education h2 {
+    font-size: 36px;
+    color: #0b0a0a;
+    margin-bottom: 20px;
+    
+}
+.section-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#internships-training {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 0;
+}
+
+.internship-container,
+.training-container {
+    border: 1px solid #060202;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(27, 25, 25, 0.1);
+    width: 38%;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.internship-container {
+    margin-left: 55px; 
+}
+
+.training-container {
+    margin-right: 55px;
+}
+
+
+.section-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.internship-subsection,
+.training-subsection {
+    color: #fff;
+    margin-top: 20px;
+    /* ... */
+}
+.internship-subsection h3,
+.training-subsection h3 {
+    color:#000;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    
+}
+
+.internship-subsection p,
+.training-subsection p {
+    color: #000;
+    font-size: 18px;
+}
+
+
+#projects {
+        background-image: url('Images/skill_bg.jpg'); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 100px 0;
+        color: #fff;
+        text-align: center; 
+        margin-top: -100px; 
+}
+
+#projects h1 {
+    font-size: 78px; 
+    color: #0b0101;
+    margin-bottom: 20px; /* Add space below the heading */
+    font-style:oblique;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+.project-item {
+    flex-basis: calc(33.33% - 20px); /* Each project item occupies about one-third of the container */
+    padding: 20px;
+    border: 1px solid #140101;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(10, 9, 9, 0.1);
+}
+
+.project-item3{
+    margin: 0 10px; 
+    flex-basis: calc(33.33% - 20px); /* Each project item occupies about one-third of the container */
+    padding: 20px;
+    border: 1px solid #140101;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(10, 9, 9, 0.1);
+    margin-left: 385px;
+}
+
+.project-item h2 i{
+    margin-bottom: 10px;
+    font-size: 32px;
+    color:#0a0b0b;
+}
+.project-item p {
+    font-size: 20px;
+    word-spacing: normal;
+    
+}
+.project-item3 p {
+    font-size: 20px;
+}
+
+.project-item3 h2 i{
+    margin-bottom: 10px;
+    font-size: 32px;
+    color:#000;
+}
+
+/* Skills section styles */
+#skills {
+    text-align: center;
+    background-image: url('Images/skill-bg.png'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    padding: 70px 0;
+    background-color: #f5f5f5;
+}
+
+.skills-section {
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 78px;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #0f0d0d;
+}
+
+.skills-container {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.skills-container {
+    max-width: 1500px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.skill-item {
+    flex-basis: calc(11.88% - 10px);
+    padding: 20px;
+    border: 3px solid #060202;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(27, 25, 25, 0.1);
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+.skill-item i {
+    font-size: 56px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+.skill-item img {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    margin-right: 10px; /* Space between logo and text */
+}
+
+
+.skill-label {
+    font-size: 36px;
+    color: #0e0d0d;
+}
+.software-tool-label{
+    font-size:30px;
+    color:#000;
+}
+
+#contact h1 {
+    font-size: 36px; 
+    color: #333; 
+    margin-bottom: 20px; /* Add space below the heading */
+    padding: 10%;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row; 
+    align-items:flex-start;
+}
+
+.contact-item {
+    display: flex;
+    align-items:center;
+    margin: 20px 0;
+}
+
+.contact-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #66b3ff; 
+}
+
+
+#contact {
+    background-image: url('Images/background.png'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+}
+
+.contact-section {
+    padding: 100px 0; 
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:first baseline;
+}
+
+.contact-column {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+.contact-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-text a {
+    font-size: 26px;
+    color: #007BFF; 
+    text-decoration: none; 
+}
+
+
+
+
+
+
